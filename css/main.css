@@ -65,12 +65,54 @@ header > .inner {
   line-height: 60px;
   display: block;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .gnd > li > a:hover {
   background-color: #555;
   color: #fff;
 }
 /* 비주얼 */
+figure {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-color: #333;
+  padding-top: 250px;
+}
+figure > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.3;
+}
+figure > .inner {
+  background: none;
+}
+figure > .inner > h2 {
+  color: #fff;
+  font: 120px/1 "arial";
+  margin-bottom: 20px;
+}
+figure > .inner > p {
+  font: 16px/1.4 "arial";
+  color: #999;
+  margin-bottom: 60px;
+}
+figure > .inner > a {
+  width: 400px;
+  display: block;
+  border: 1px solid #bbb;
+  font: bold 12px/30px "arial";
+  color: #fff;
+  text-align: center;
+}
+figure > .inner > a:hover {
+  background-color: #bbb;
+  color: #333;
+}
 /* 뉴스 */
 /* 하단 */
