@@ -115,4 +115,32 @@ figure > .inner > a:hover {
   color: #333;
 }
 /* 뉴스 */
+section > .inner{
+    text-align: center;
+    padding: 100px 0;
+    background: none;
+}
+section > .inner > h3{
+    margin-bottom: 40px;
+font: bold 24px/1 "arial";
+}
+.n_list{
+    display: flex;
+    gap: 30px;
+}
+.n_list > li{
+    width: calc(100% / 4);
+    text-align: start;
+}
+.img_box{
+    height: 120px;
+    overflow: hidden;
+}
+.img_box > img{
+    width: 100%;
+}
+.n_title{
+    font: bold 16px/1.4 "arial"; 
+    margin: 10px 0;
+}
 /* 하단 */
